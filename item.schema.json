@@ -1,0 +1,21 @@
+{
+  "name": "Item",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "アイテム名（製品名・部品名）"
+    },
+    "category": {
+      "type": "string",
+      "description": "カテゴリ（メーカー名 / 製品種別）"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "商品画像URL"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
